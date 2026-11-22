@@ -5,7 +5,7 @@ function App(){
 
  return (
     <div>
-      <Student />
+      <App1 />
     </div>
   );
 

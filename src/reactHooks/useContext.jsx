@@ -8,5 +8,18 @@
 
 // createContext() it creates a context object that can hold information to be shared between components
 
+import { useState, createContext, useContext } from 'react';
+import { createRoot } from 'react-dom/client';
 
+function Profile(){
+    const user = useContext(UserContext);
 
+    return(
+        <div>
+            <h2>Student Profile</h2>
+            <h3>welcom, {user}</h3>
+        </div>
+    )
+}
+
+export default Profile;
