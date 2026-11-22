@@ -17,7 +17,7 @@ import{ useRef } from "react";
 // hello Bramwel in the screen 
 // Re-render == means React runs your component again to work out what the updated screen should look like 
 // e.g that counter that count number it needs to update the screen when the value changes 
-
+ 
 //     const emailRef == useRef(null); it creates the Reference
 //     useRef(null); it creates the Reference 
 //     emailRef == is the variable holding it
