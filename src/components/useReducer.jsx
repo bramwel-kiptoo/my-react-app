@@ -7,10 +7,10 @@ import { useReducer } from "react";
 
 // const [state, dispatch] = useReducer(reducer, initialState);
 //     state =========== current data
-//     dispatch ======== sends an action to the reducer
-//     reducer ========= function that decides how state changes
+//     dispatch ======== sends an action to the reducer 
+//     Reducer() ========= function that decides how state changes
 //     initialState ==== Starting value
-
+// 
 
 function Reducer(state, action){
     if (action === "increase"){
@@ -37,7 +37,7 @@ function AppReducer(){
 
             <button onClick={() => dispatch("decrease")}>Decrease</button>
 
-            <button onClick={() => dispatch("reset")}>Reset</button>
+            <button onClick={() => dispatch("reset.")}>Reset</button>
         </div>
     );
 }
