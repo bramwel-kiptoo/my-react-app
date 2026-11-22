@@ -7,7 +7,7 @@ import { useReducer } from "react";
 
 // const [state, dispatch] = useReducer(reducer, initialState);
 //     state =========== current data
-//     dispatch ======== sends an action to the reducer 
+//     dispatch ======== sends an action to the reducer fuction
 //     Reducer() ========= function that decides how state changes
 //     initialState ==== Starting value
 // 
