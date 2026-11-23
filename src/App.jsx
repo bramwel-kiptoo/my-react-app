@@ -7,7 +7,7 @@ function App(){
 
  return (
     <div>
-      <AppMemo />
+      <AppCallBack />
     </div>
   );
 
