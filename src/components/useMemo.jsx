@@ -6,7 +6,8 @@ import { useMemo } from "react";
 // a theme changes, a form is updated... Each time your component re-render, ordinary  javaScript calculation
 // inside the componet can run again sometimes a calculation is expensive and takes a lot of time
 
-// useMemo() helps React reuse a previously calculated value(cache the value) when its dependencies haven't changed
+// useMemo() helps React reuse(remember) a previously calculated value(cache the value) when its dependencies haven't changed
+// but if the dependencies changes the calculated value also changes this causes the screen to re-render again
 // now the useMemo() is a react hook that remember the result of a calclutation between renders until it's dependencies change
 
 // The useMemo Hook only runs when one of its dependencies update.
